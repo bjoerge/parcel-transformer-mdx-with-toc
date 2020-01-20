@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MDXAsset should render components with MDX. 1`] = `
+"
+        import React from 'react';
+        import { mdx } from '@mdx-js/react'
+
+        export default (function() {/* @jsx mdx */
+import Component from './Component'
+
+const makeShortcode = name => function MDXDefaultShortcode(props) {
+  console.warn(\\"Component \\" + name + \\" was not imported, exported, or provided by MDXProvider as global scope\\")
+  return <div {...props}/>
+};
+
+const layoutProps = {
+  
+};
+const MDXLayout = \\"wrapper\\"
+function MDXContent({
+  components,
+  ...props
+}) {
+  return <MDXLayout {...layoutProps} {...props} components={components} mdxType=\\"MDXLayout\\">
+
+    <h1 {...{
+      \\"id\\": \\"test\\"
+    }}>{\`Test\`}</h1>
+    <Component mdxType=\\"Component\\">component</Component>
+    </MDXLayout>;
+}
+
+;
+MDXContent.isMDXComponent = true;
+return MDXContent})();
+
+        export const Toc = (function() {/* @jsx mdx */
+
+
+const makeShortcode = name => function MDXDefaultShortcode(props) {
+  console.warn(\\"Component \\" + name + \\" was not imported, exported, or provided by MDXProvider as global scope\\")
+  return <div {...props}/>
+};
+
+const layoutProps = {
+  
+};
+const MDXLayout = \\"wrapper\\"
+function MDXContent({
+  components,
+  ...props
+}) {
+  return <MDXLayout {...layoutProps} {...props} components={components} mdxType=\\"MDXLayout\\">
+    <ul>
+      <li parentName=\\"ul\\"><a parentName=\\"li\\" {...{
+          \\"href\\": \\"#test\\"
+        }}>{\`Test\`}</a></li>
+    </ul>
+    </MDXLayout>;
+}
+
+;
+MDXContent.isMDXComponent = true;
+return MDXContent})()
+        "
+`;
+
+exports[`MDXAsset should render markdown with MDX. 1`] = `
+"
+        import React from 'react';
+        import { mdx } from '@mdx-js/react'
+
+        export default (function() {/* @jsx mdx */
+import Component from './Component'
+
+const makeShortcode = name => function MDXDefaultShortcode(props) {
+  console.warn(\\"Component \\" + name + \\" was not imported, exported, or provided by MDXProvider as global scope\\")
+  return <div {...props}/>
+};
+
+const layoutProps = {
+  
+};
+const MDXLayout = \\"wrapper\\"
+function MDXContent({
+  components,
+  ...props
+}) {
+  return <MDXLayout {...layoutProps} {...props} components={components} mdxType=\\"MDXLayout\\">
+
+    <h1 {...{
+      \\"id\\": \\"test\\"
+    }}>{\`Test\`}</h1>
+    <Component mdxType=\\"Component\\">component</Component>
+    </MDXLayout>;
+}
+
+;
+MDXContent.isMDXComponent = true;
+return MDXContent})();
+
+        export const Toc = (function() {/* @jsx mdx */
+
+
+const makeShortcode = name => function MDXDefaultShortcode(props) {
+  console.warn(\\"Component \\" + name + \\" was not imported, exported, or provided by MDXProvider as global scope\\")
+  return <div {...props}/>
+};
+
+const layoutProps = {
+  
+};
+const MDXLayout = \\"wrapper\\"
+function MDXContent({
+  components,
+  ...props
+}) {
+  return <MDXLayout {...layoutProps} {...props} components={components} mdxType=\\"MDXLayout\\">
+    <ul>
+      <li parentName=\\"ul\\"><a parentName=\\"li\\" {...{
+          \\"href\\": \\"#test\\"
+        }}>{\`Test\`}</a></li>
+    </ul>
+    </MDXLayout>;
+}
+
+;
+MDXContent.isMDXComponent = true;
+return MDXContent})()
+        "
+`;

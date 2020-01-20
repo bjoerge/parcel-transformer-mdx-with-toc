@@ -1,0 +1,24 @@
+{
+  "name": "parcel-plugin-mdx-with-toc",
+  "version": "1.0.0",
+  "description": "An experimental Parcel plugin for MDX that also exports Table of Contents",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^1.5.3",
+    "github-slugger": "^1.2.1",
+    "markdown-toc": "^1.2.0",
+    "remark-slug": "^5.1.2"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "parcel-bundler": "^1.12.4"
+  },
+  "keywords": [
+    "mdx",
+    "toc"
+  ],
+  "license": "MIT"
+}
