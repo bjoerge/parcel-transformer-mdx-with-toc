@@ -1,8 +1,8 @@
-# `parcel-plugin-mdx-with-toc`
+# `parcel-transformer-mdx-with-toc`
 
-An experimental [Parcel][] v1 plugin for [MDX][] that also exports Table of Contents using [markdown-toc][] and [github-slugger][] to generate anchor names for headings.
+An experimental [Parcel][] v2 plugin for [MDX][] that also exports Table of Contents using [markdown-toc][] and [github-slugger][] to generate anchor names for headings.
 
-Note: This plugin is based on the official [parcel-plugin-mdx][] and modified to also export the Table of Contents. If you don't need a Table of Contents, you are better off using the official [parcel-plugin-mdx][].
+Note: This plugin is based on the official [parcel-plugin-mdx][] and modified to also export the Table of Contents. If you don't need a Table of Contents, you are better off using the official [@parcel/transformer-mdx][].
 
 ## Installation
 
@@ -48,4 +48,4 @@ render(<><Toc /><MDXContent /></>, root);
 
 [github-slugger]: https://www.npmjs.com/package/github-slugger
 
-[parcel-plugin-mdx]: https://www.npmjs.com/package/@mdx-js/parcel-plugin-mdx
+[@parcel/transformer-mdx]: https://www.npmjs.com/package/@mdx-js/parcel-plugin-mdx
