@@ -9,13 +9,13 @@ Note: This plugin is based on the official [parcel-plugin-mdx][] and modified to
 [npm][]:
 
 ```sh
-npm i -D parcel-plugin-mdx-with-toc
+npm i -D parcel-transformer-mdx-with-toc
 ```
 
 Or with [Yarn][]:
 
 ```sh
-yarn add -D parcel-plugin-mdx-with-toc
+yarn add -D parcel-transformer-mdx-with-toc
 ```
 
 ## Usage
@@ -34,7 +34,7 @@ render(<><Toc /><MDXContent /></>, root);
 
 <!-- Definitions -->
 
-[mit]: https://github.com/bjoerge/parcel-plugin-mdx-with-toc/license
+[mit]: https://github.com/bjoerge/parcel-transformer-mdx-with-toc/license
 
 [mdx]: https://github.com/mdx-js/mdx
 
