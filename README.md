@@ -18,6 +18,16 @@ Or with [Yarn][]:
 yarn add -D parcel-transformer-mdx-with-toc
 ```
 
+### Add as transform to `.parcelrc`
+```
+{
+  "extends": ["@parcel/config-default"],
+  "transforms": {
+    "*.{md,mdx}": ["parcel-transformer-mdx-with-toc"]
+  }
+}
+````
+
 ## Usage
 
 ```jsx
